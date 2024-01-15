@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<p>Hello World</p>
+		<p>Welcome to My Page:</p>
+		<ul>
+			<li>nice</li>
+			<li>hardwork</li>
+			<li>chill</li>
+		</ul>
+
+		<img id="cat_image" src="cat.jpg">
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text" id="name-input">
+			Message:
+			<input type="textarea" id="message-input">
+			How did you hear about us: 
+			<div style="display: flex; align-items: center;">
+				<input type="checkbox" id="Google" name="Google" value="Google">
+				<label> Google</label>
+				<input type="checkbox" id="friend" name="friend" value="A friend">
+				<label> A friend</label>
+				<input type="checkbox" id="Other" name="Other" value="Other">
+				<label> Other </label>
+			</div>
+			<input type="submit" id="submit">
+		</form>
+
+	</content>
+
+
+	<script src="index.js"></script>
+
+</body>
+</html>
